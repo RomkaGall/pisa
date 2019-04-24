@@ -1,0 +1,56 @@
+.banner {
+    margin-bottom: 55px;
+    padding-top: 140px;
+
+    .wr {
+        max-width: 1400px;
+    }
+
+    .banner__main {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .banner__text {
+        max-width: 628px;
+        color: #FFFFFF;	
+        font-size: 38px;	
+        font-weight: bold;	
+        line-height: 50px;
+
+        span {
+            width: 100%;
+            display: inline;
+            background-color: #013BD6;	
+            box-shadow: -2px 0 0 10px #013bd6, 12px 0 0 10px #013bd6;
+        }
+    }
+    .banner__img {
+        flex-shrink: 0;
+        height: 459px;
+        width: 551px;
+    }
+
+    .banner__link {
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+
+        &:before {
+            content: '';
+            display: block;
+            height: 60px;
+            width: 60px;
+            margin-right: 21px;
+            border-radius: 50%;
+            background-color: #013BD6;
+            background-image: url('../img/Illustration/arrow.svg');
+            background-repeat: no-repeat;
+            background-position: center;
+            transform: rotate(90deg);
+            background-size: 10px;
+            box-shadow: 0 24px 19px -10px rgba(1,59,214,0.3);
+        }
+    }
+}

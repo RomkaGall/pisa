@@ -1,0 +1,40 @@
+.header {
+    padding-top: 20px;
+
+    .wr {
+        max-width: 1400px;
+    }
+
+    .header__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo {
+        height: 59px;	
+        width: 130px;
+        background: url(../img/Illustration/logo_1.svg) center no-repeat;
+    }
+
+    .header__links_wr {
+        display: flex;
+        justify-content: space-between;
+        align-items: center
+    }
+
+    .header__nav {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 37px; 
+    }
+
+    .header_link {
+        margin-right: 30px;
+        font-weight: bold;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}

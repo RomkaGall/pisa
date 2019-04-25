@@ -1,0 +1,89 @@
+.graph {
+    padding: 100px 0;
+}
+
+.graph__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F1F5FF;
+    margin: 110px 0;
+    padding: 50px 180px 60px 188px;
+
+    .graph__text {
+        font-size: 18px;	
+        font-weight: 600;	
+        line-height: 26px;
+        color: #000D46;
+
+        
+    }
+}
+
+.graph_list {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 302px;
+    margin-top: 10px;
+
+    &::before {
+        content: '';
+        position: absolute;
+        left: -155px;
+        top: 29px;
+        display: block;
+        width: 285px;
+        height: 202px;
+        background: url(../img/Illustration/path.svg)
+    }
+
+    .graph__item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 36px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        &.read {
+            margin-left: 31px;
+
+            &::before {
+                content: '';
+                display: block;
+                height: 60px;	
+                width: 60px;
+                margin-right: 12px;
+                background: url(../img/Illustration/read.svg)
+            }
+        }
+
+        &.math {
+            align-self: flex-end;
+            margin-bottom: 41px;
+
+            &::before {
+                content: '';
+                display: block;
+                height: 60px;	
+                width: 60px;
+                margin-right: 14px;
+                background: url(../img/Illustration/math.svg)
+            }
+        }
+
+        &.science {
+
+            &::before {
+                content: '';
+                display: block;
+                height: 60px;	
+                width: 60px;
+                margin-right: 14px;
+                background: url(../img/Illustration/eco.svg)
+            }
+        }
+    }
+}

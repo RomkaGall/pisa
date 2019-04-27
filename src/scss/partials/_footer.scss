@@ -1,0 +1,43 @@
+.footer {
+    
+    .wr {
+        max-width: 1500px;
+    }
+}
+
+
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-bottom: 41px;
+    font-weight: 500;
+}
+
+.footer__nav {
+    margin-left: 44px;
+}
+
+.footer__list {
+    display: flex;
+    justify-content: space-between;
+    width: 513px;
+    
+    .footer__link {
+
+    }
+}
+
+.footer__company {
+    display: flex;
+    align-items: center;
+    
+    &::before {
+        content: '';
+        display: block;
+        width: 17px;
+        height: 17px;
+        margin-right: 11px;
+        background: url(../img/nextpage.svg) center;
+    }
+}

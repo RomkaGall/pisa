@@ -1,0 +1,43 @@
+.contacts {
+    
+    .block__title {
+        margin-bottom: 78px;
+    }
+}
+
+.contacts__content {
+    padding: 45px 159px 86px 120px;
+    background-color: #F1F5FF;
+}
+
+.contacts__block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts__info {
+    display: flex;
+    flex-direction: column;
+    max-width: 291px;
+    color: #000D46;	
+    font-weight: 600;	
+    line-height: 24px;
+
+    .contacts__address {
+        margin-bottom: 36px;
+    }
+}
+
+.contacts__form {
+    display: flex;
+    flex-direction: column;
+    width: 515px;
+
+    .input {
+        margin-bottom: 18px;
+    }
+
+    .textarea {
+        margin-bottom: 18px;
+    }
+}
